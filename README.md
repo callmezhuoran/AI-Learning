@@ -32,7 +32,7 @@ D1 概念已完成；当前任务为 D2。尚无提交的 attention 代码、数
 
 GitHub 仓库：[callmezhuoran/AI-Learning](https://github.com/callmezhuoran/AI-Learning)。用户选择公开保存学习笔记，并授权助教使用专门分支维护。**工作分支为 `codex/learning-log`**；每日任务和进度都读取、更新这个分支，不自动合并到其他分支。当前学习任务保留本地副本，日常记录用 Git 版本历史追踪。
 
-**当前同步状态：本地文件已准备，首次上传尚未完成。** GitHub 连接可读取仓库，但写入返回 `403 Resource not accessible by integration`。需要为该仓库完成 Git 写入认证，或给连接授予适当的仓库写入权限。首次推送后须核对文件，再更新此状态。
+**首次同步已完成并读取远端文件验证。** 用户已完成本地 Git 认证，13 个学习档案文件已上传到 [codex/learning-log 分支](https://github.com/callmezhuoran/AI-Learning/tree/codex/learning-log)。后续在该分支提交并通过本地 Git 推送；GitHub 连接仍可用于读取，但其写入接口曾返回 403，不将它与已成功认证的本地 Git 混淆。
 
 每次更新都核对远端实际文件后再确认同步成功；网络或权限不可用时先保存本地并注明未同步。
 
